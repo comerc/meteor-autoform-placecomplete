@@ -1,4 +1,4 @@
-meteor-autoform-placecomplete
+comerc:autoform-placecomplete
 =============================
 
 TODO
