@@ -19,5 +19,6 @@ Template["afPlacecomplete_bootstrap3"].rendered = function () {
 };
 
 Template["afPlacecomplete_bootstrap3"].destroyed = function () {
+  // TODO: it is work?
   this.$("input").select2("destroy");
 };
