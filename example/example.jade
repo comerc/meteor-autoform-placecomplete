@@ -1,0 +1,27 @@
+head
+  meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+  meta(http-equiv="X-UA-Compatible" content="IE=edge")
+  title Demo for comerc:autoform-placecomplete
+  link(href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet")
+  link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet")
+  script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript")
+  link(href="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.css" rel="stylesheet")
+  script(src="//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min.js" type="text/javascript")
+  link(href="//fk.github.io/select2-bootstrap-css/css/select2-bootstrap.css" rel="stylesheet")
+  script(src="//maps.googleapis.com/maps/api/js?libraries=places&sensor=false" type="text/javascript")
+
+body
+  #content-wrapper.container-fluid
+    .row
+      .col-lg-3
+      .col-lg-5
+        +example
+        
+      .col-lg-4
+
+template(name="example")
+  h3 Demo for <a href="https://github.com/comerc/meteor-autoform-placecomplete"><i class="fa fa-github-alt">&nbsp;comerc:autoform-placecomplete</i></a>
+  +quickForm id="demo" schema="Schema" type="insert"
+  h5 <a href="https://rawgit.com/comerc/placecomplete/master/example.html"><i class="fa fa-hand-o-right">&nbsp;more examples</i></a> for wrapped jQuery-plugin <a href="https://github.com/comerc/placecomplete"><i class="fa fa-github-alt">&nbsp;placecomplete</i></a>  
+  
+  
