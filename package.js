@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'comerc:autoform-geo',
-  summary: 'Custom geo input types for AutoForm',
-  version: '0.0.1',
-  git: 'https://github.com/comerc/meteor-autoform-geo.git'
+  name: 'comerc:autoform-placecomplete',
+  summary: 'Custom placecomplete input type for AutoForm',
+  version: '1.0.0',
+  git: 'https://github.com/comerc/meteor-autoform-placecomplete.git'
 });
 
 Package.onUse(function(api) {
@@ -11,8 +11,8 @@ Package.onUse(function(api) {
   api.use('blaze@2.0.0');
   api.use('aldeed:autoform@4.0.0');
   api.addFiles([
-    'autoform-geo.html',
-    'autoform-geo.js',
+    'autoform-placecomplete.html',
+    'autoform-placecomplete.js',
     'themes/bootstrap3.html',
     'themes/bootstrap3.js',
     'placecomplete/jquery.placecomplete.css',
