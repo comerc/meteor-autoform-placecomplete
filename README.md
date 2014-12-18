@@ -1,5 +1,5 @@
-meteor-autoform-geo
-===================
+meteor-autoform-placecomplete
+=============================
 
 TODO
 ----
@@ -8,6 +8,5 @@ Detect of GEO-position
 GIT SUBMODULE TIPS
 ------------------
 
-`git submodule add url`
-
-`git submodule update --remote --merge`
+1. `git submodule add url`
+2. `git submodule update --remote --merge`
