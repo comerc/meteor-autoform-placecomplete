@@ -1,6 +1,13 @@
 comerc:autoform-placecomplete
 =============================
 
+DEMO
+----
+`$ git clone https://github.com/comerc/meteor-autoform-placecomplete.git`
+`$ cd example`
+`$ meteor`
+`http://localhost:3000`
+
 TODO
 ----
 Detect of GEO-position
