@@ -1,8 +1,12 @@
 comerc:autoform-placecomplete
 =============================
 
-DEMO
+EXAMPLE
 ----
+##### LIVE DEMO
+[autoform-placecomplete.meteor.com](http://autoform-placecomplete.meteor.com/)
+
+##### FROM SOURCE
 1. `$ git clone https://github.com/comerc/meteor-autoform-placecomplete.git`
 2. `$ cd example`
 3. `$ meteor`
