@@ -13,5 +13,6 @@ Template.afPlacecomplete.rendered = function () {
 };
 
 Template.afPlacecomplete.destroyed = function () {
+  // TODO: it is work?
   this.$("input").select2("destroy");
 };
