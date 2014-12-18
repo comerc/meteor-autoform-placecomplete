@@ -1,10 +1,9 @@
 comerc:autoform-placecomplete
 =============================
+![demo](https://github.com/comerc/meteor-autoform-placecomplete/blob/master/demo.gif)
 
 EXAMPLE
 ----
-![demo](https://github.com/comerc/meteor-autoform-placecomplete/blob/master/demo.gif)
-
 ##### LIVE DEMO
 [autoform-placecomplete.meteor.com](http://autoform-placecomplete.meteor.com/)
 
