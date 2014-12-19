@@ -20,4 +20,5 @@ Detect of GEO-position
 GIT SUBMODULE TIPS
 ------------------
 1. `git submodule add [url]`
-2. `git submodule update --remote --merge`
+2. `git submodule update --remote --merge [name]`
+3. `git clone --recursive [url]`
