@@ -9,4 +9,4 @@ mquandalle:jade
 aldeed:simple-schema
 aldeed:autoform
 aldeed:autoform-select2
-comerc:autoform-placecomplete@2.0.0
+comerc:autoform-placecomplete
