@@ -19,5 +19,5 @@ Detect of GEO-position
 
 GIT SUBMODULE TIPS
 ------------------
-1. `git submodule add url`
+1. `git submodule add [url]`
 2. `git submodule update --remote --merge`
