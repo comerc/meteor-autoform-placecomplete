@@ -10,12 +10,7 @@ Template["afPlacecomplete_bootstrap3"].helpers({
 
 Template["afPlacecomplete_bootstrap3"].rendered = function () {
   var $element = this.$("input");
-  var placecompleteOptions = this.data.atts.placecompleteOptions || {};
-  // FIXME: border bugfix works only for 150%, but added bug of resize
-  // if (!placecompleteOptions.width) {
-  //   placecompleteOptions.width = "element";
-  // }
-  $element.placecomplete(placecompleteOptions);
+  $element.placecomplete(this.data.atts.placecompleteOptions || {});
 };
 
 Template["afPlacecomplete_bootstrap3"].destroyed = function () {
