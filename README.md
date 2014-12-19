@@ -8,7 +8,7 @@ EXAMPLE
 [autoform-placecomplete.meteor.com](http://autoform-placecomplete.meteor.com/)
 
 ##### FROM SOURCE
-1. `$ git clone https://github.com/comerc/meteor-autoform-placecomplete.git`
+1. `$ git clone --recursive https://github.com/comerc/meteor-autoform-placecomplete.git`
 2. `$ cd example`
 3. `$ meteor`
 4. `http://localhost:3000`
