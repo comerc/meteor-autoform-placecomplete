@@ -1,7 +1,7 @@
 Package.describe({
   name: 'comerc:autoform-placecomplete',
   summary: 'Custom placecomplete input type for AutoForm',
-  version: '2.1.3',
+  version: '2.2.0',
   git: 'https://github.com/comerc/meteor-autoform-placecomplete.git'
 });
 

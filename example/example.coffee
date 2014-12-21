@@ -36,6 +36,14 @@
             result.componentRestrictions =
               "country": country
           result
+        selectDetails: (placeResult) ->
+          $("input[name='place_id']").val(placeResult.place_id)
+          return null
+  "place_id": # TODO: https://github.com/aldeed/meteor-autoform/issues/549
+    type: String
+    label: "place_id"
+    autoform:
+      placeholder: "(as hidden field)"
 
 if Meteor.isClient
   AutoForm.setDefaultTemplate("bootstrap3")
