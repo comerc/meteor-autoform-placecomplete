@@ -25,4 +25,4 @@ GIT SUBMODULE TIPS
 
 alt
 ---
-autoform-selectize + selectize-placecomplete
+[comerc:autoform-selectize](https://github.com/comerc/meteor-autoform-selectize) + [selectize-placecomplete](https://github.com/comerc/selectize-placecomplete)
