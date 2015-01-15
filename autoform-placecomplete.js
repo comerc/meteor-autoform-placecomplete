@@ -7,6 +7,17 @@ AutoForm.addInputType("placecomplete", {
   }
 });
 
+Template.afPlacecomplete.helpers({
+  atts: function addFormControlAtts() {
+    var atts = _.clone(this.atts);
+    // TODO: if (style == 'bootstrap3') ...
+    // Add bootstrap class
+    atts = AutoForm.Utility.addClass(atts, "form-control");
+    delete atts.placecompleteOptions;
+    return atts;
+  }
+});
+
 Template.afPlacecomplete.rendered = function () {
   // instanciate placecomplete
   this.$("input").placecomplete(this.data.atts.placecompleteOptions || {});
