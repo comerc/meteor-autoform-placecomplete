@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0');
   api.use('templating@1.0.0');
   api.use('blaze@2.0.0');
-  api.use('aldeed:autoform@4.0.0');
+  api.use('aldeed:autoform@4.0.0 || 5.0.0');
   api.use('jquery', 'client');
   api.addFiles([
     'autoform-placecomplete.html',
