@@ -9,7 +9,7 @@ EXAMPLE
 
 ##### FROM SOURCE
 1. `$ git clone --recursive https://github.com/comerc/meteor-autoform-placecomplete.git`
-2. `$ cd example`
+2. `$ cd meteor-autoform-placecomplete/example`
 3. `$ meteor`
 4. `http://localhost:3000`
 
